@@ -1,0 +1,4 @@
+# Ignore Backup Copies from Text Editor
+*~
+# builds
+.releasezips/
