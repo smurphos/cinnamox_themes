@@ -21,7 +21,7 @@ Icons in screenshots are from [Vibrancy Colours](http://www.ravefinity.com/p/vib
 
 Install via Cinnamon's Themes module in Cinnamon settings or download from [the release page](https://github.com/smurphos/cinnamox_themes/releases) and unzip into your `~/.themes` directory.
 
-The themes are also hosted on [Cinnamon Spices](https://cinnamon-spices.linuxmint.com/themes)
+The themes are also hosted on [Cinnamon Spices](https://cinnamon-spices.linuxmint.com/themes) and [openDesktop.org](https://www.opendesktop.org/member/491875).
 
 Once installed select the Cinnamox theme as your Desktop, Controls and Window Borders in the Cinnamon Themes module.
 
