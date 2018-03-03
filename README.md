@@ -33,11 +33,11 @@ To allow the GTK2, GTK3 and Metacity1 themes to apply to GUI apps running as roo
 
 The theme includes an interactive bash script that allows end users to adjust the transparency of the Cinnamon Theme. The default is no transparency.
 
-To access the tool open a terminal window (Ctrl-Alt-T) and replacing `$STHEME_NAME` with the actual name of the variant installed use the following command to make the script executable and launch it. 
+To access the tool open a terminal window (Ctrl-Alt-T) and replacing `$THEME_NAME` with the actual name of the variant installed use the following command to make the script executable and launch it. 
 
-`chmod +x ~/.themes/$STHEME_NAME/cinnamon/cinnamox_transparency.sh && ~/.themes/$STHEME_NAME/cinnamon/cinnamox_transparency.sh`
+`chmod +x ~/.themes/$THEME_NAME/cinnamon/cinnamox_transparency.sh && ~/.themes/$THEME_NAME/cinnamon/cinnamox_transparency.sh`
 
-If you are not happy with the end result simply run `~/.themes/$STHEME_NAME/cinnamon/cinnamox_transparency.sh` again to chose another option including the default.
+If you are not happy with the end result simply run `~/.themes/$THEME_NAME/cinnamon/cinnamox_transparency.sh` again to chose another option including the default.
 
 ## Compatibility
 
