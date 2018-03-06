@@ -77,32 +77,56 @@ See [my Github repository](https://github.com/smurphos/cinnamox_themes/releases)
 
 ##### Cinnamox-Aubergine
 
-![Cinnamox-Aubergine](https://github.com/smurphos/cinnamox_themes/raw/master/Cinnamox-Aubergine/cinnamon/thumbnail.png "Cinnamox-Aubergine")
+![Cinnamox-Aubergine](https://github.com/smurphos/cinnamox_themes/raw/master/Screenshots/Aubergine-menu.png "Cinnamox-Aubergine")
+![Cinnamox-Aubergine](https://github.com/smurphos/cinnamox_themes/raw/master/Screenshots/Aubergine-calendar.png "Cinnamox-Aubergine")
+![Cinnamox-Aubergine](https://github.com/smurphos/cinnamox_themes/raw/master/Screenshots/Aubergine-GTK.png  "Cinnamox-Aubergine")
+![Cinnamox-Aubergine](https://github.com/smurphos/cinnamox_themes/raw/master/Screenshots/Aubergine-trans.png  "Cinnamox-Aubergine")
 
 ##### Cinnamox-Gold-Spice
 
-![Cinnamox-Gold-Spice](https://github.com/smurphos/cinnamox_themes/raw/master/Cinnamox-Gold-Spice/cinnamon/thumbnail.png "Cinnamox-Gold-Spice")
+![Cinnamox-Gold-Spice](https://github.com/smurphos/cinnamox_themes/raw/master/Screenshots/Gold-Spice-menu.png "Cinnamox-Gold-Spice")
+![Cinnamox-Gold-Spice](https://github.com/smurphos/cinnamox_themes/raw/master/Screenshots/Gold-Spice-calendar.png "Cinnamox-Gold-Spice")
+![Cinnamox-Gold-Spice](https://github.com/smurphos/cinnamox_themes/raw/master/Screenshots/Gold-Spice-GTK.png  "Cinnamox-Gold-Spice")
+![Cinnamox-Gold-Spice](https://github.com/smurphos/cinnamox_themes/raw/master/Screenshots/Gold-Spice-trans.png  "Cinnamox-Gold-Spice")
 
 ##### Cinnamox-Heather
 
-![Cinnamox-Heather](https://github.com/smurphos/cinnamox_themes/raw/master/Cinnamox-Heather/cinnamon/thumbnail.png "Cinnamox-Heather")
+![Cinnamox-Heather](https://github.com/smurphos/cinnamox_themes/raw/master/Screenshots/Heather-menu.png "Cinnamox-Heather")
+![Cinnamox-Heather](https://github.com/smurphos/cinnamox_themes/raw/master/Screenshots/Heather-calendar.png "Cinnamox-Heather")
+![Cinnamox-Heather](https://github.com/smurphos/cinnamox_themes/raw/master/Screenshots/Heather-GTK.png  "Cinnamox-Heather")
+![Cinnamox-Heather](https://github.com/smurphos/cinnamox_themes/raw/master/Screenshots/Heather-trans.png  "Cinnamox-Heather")
 
 ##### Cinnamox-Kashmir-Blue
 
-![Cinnamox-Kashmir-Blue](https://github.com/smurphos/cinnamox_themes/raw/master/Cinnamox-Kashmir-Blue/cinnamon/thumbnail.png "Cinnamox-Kashmir-Blue")
+![Cinnamox-Kashmir-Blue](https://github.com/smurphos/cinnamox_themes/raw/master/Screenshots/Kashmir-Blue-menu.png "Cinnamox-Kashmir-Blue")
+![Cinnamox-Kashmir-Blue](https://github.com/smurphos/cinnamox_themes/raw/master/Screenshots/Kashmir-Blue-calendar.png "Cinnamox-Kashmir-Blue")
+![Cinnamox-Kashmir-Blue](https://github.com/smurphos/cinnamox_themes/raw/master/Screenshots/Kashmir-Blue-GTK.png  "Cinnamox-Kashmir-Blue")
+![Cinnamox-Kashmir-Blue](https://github.com/smurphos/cinnamox_themes/raw/master/Screenshots/Kashmir-Blue-trans.png  "Cinnamox-Kashmir-Blue")
 
 ##### Cinnamox-Rhino
 
-![Cinnamox-Rhino](https://github.com/smurphos/cinnamox_themes/raw/master/Cinnamox-Rhino/cinnamon/thumbnail.png "Cinnamox-Rhino")
+![Cinnamox-Rhino](https://github.com/smurphos/cinnamox_themes/raw/master/Screenshots/Rhino-menu.png "Cinnamox-Rhino")
+![Cinnamox-Rhino](https://github.com/smurphos/cinnamox_themes/raw/master/Screenshots/Rhino-calendar.png "Cinnamox-Rhino")
+![Cinnamox-Rhino](https://github.com/smurphos/cinnamox_themes/raw/master/Screenshots/Rhino-GTK.png  "Cinnamox-Rhino")
+![Cinnamox-Rhino](https://github.com/smurphos/cinnamox_themes/raw/master/Screenshots/Rhino-trans.png  "Cinnamox-Rhino")
 
 ##### Cinnamox-Rosso-Cursa
 
-![Cinnamox-Rosso-Cursa](https://github.com/smurphos/cinnamox_themes/raw/master/Cinnamox-Rosso-Cursa/cinnamon/thumbnail.png "Cinnamox-Rosso-Cursa")
+![Cinnamox-Rosso-Cursa](https://github.com/smurphos/cinnamox_themes/raw/master/Screenshots/Rosso-Cursa-menu.png "Cinnamox-Rosso-Cursa")
+![Cinnamox-Rosso-Cursa](https://github.com/smurphos/cinnamox_themes/raw/master/Screenshots/Rosso-Cursa-calendar.png "Cinnamox-Rosso-Cursa")
+![Cinnamox-Rosso-Cursa](https://github.com/smurphos/cinnamox_themes/raw/master/Screenshots/Rosso-Cursa-GTK.png  "Cinnamox-Rosso-Cursa")
+![Cinnamox-Rosso-Cursa](https://github.com/smurphos/cinnamox_themes/raw/master/Screenshots/Rosso-Cursa-trans.png  "Cinnamox-Rosso-Cursa")
 
 ##### Cinnamox-Willow-Grove
 
-![Cinnamox-Willow-Grove](https://github.com/smurphos/cinnamox_themes/raw/master/Cinnamox-Willow-Grove/cinnamon/thumbnail.png "Cinnamox-Willow-Grove")
+![Cinnamox-Willow-Grove](https://github.com/smurphos/cinnamox_themes/raw/master/Screenshots/Willow-Grove-menu.png "Cinnamox-Willow-Grove")
+![Cinnamox-Willow-Grove](https://github.com/smurphos/cinnamox_themes/raw/master/Screenshots/Willow-Grove-calendar.png "Cinnamox-Willow-Grove")
+![Cinnamox-Willow-Grove](https://github.com/smurphos/cinnamox_themes/raw/master/Screenshots/Willow-Grove-GTK.png  "Cinnamox-Willow-Grove")
+![Cinnamox-Willow-Grove](https://github.com/smurphos/cinnamox_themes/raw/master/Screenshots/Willow-Grove-trans.png  "Cinnamox-Willow-Grove")
 
 ##### Cinnamox-Zanah
 
-![Cinnamox-Zanah](https://github.com/smurphos/cinnamox_themes/raw/master/Cinnamox-Zanah/cinnamon/thumbnail.png "Cinnamox-Zanah")
+![Cinnamox-Zanah](https://github.com/smurphos/cinnamox_themes/raw/master/Screenshots/Zanah-menu.png "Cinnamox-Zanah")
+![Cinnamox-Zanah](https://github.com/smurphos/cinnamox_themes/raw/master/Screenshots/Zanah-calendar.png "Cinnamox-Zanah")
+![Cinnamox-Zanah](https://github.com/smurphos/cinnamox_themes/raw/master/Screenshots/Zanah-GTK.png  "Cinnamox-Zanah")
+![Cinnamox-Zanah](https://github.com/smurphos/cinnamox_themes/raw/master/Screenshots/Zanah-trans.png  "Cinnamox-Zanah")
