@@ -67,3 +67,10 @@ Tested on Linux Mint `18.2` & `18.3` 64bit with Cinnamon `3.4.x`, `3.6.x`, Manja
 ## Changelog & Previous Releases
 
 See [my Github repository](https://github.com/smurphos/cinnamox_themes/releases)
+
+## Additional Screenshots
+
+![Cinnamox-Gold-Spice](https://github.com/smurphos/cinnamox_themes/raw/master/Screenshots/Gold-Spice-menu.png "Cinnamox-Gold-Spice")
+![Cinnamox-Gold-Spice](https://github.com/smurphos/cinnamox_themes/raw/master/Screenshots/Gold-Spice-calendar.png "Cinnamox-Gold-Spice")
+![Cinnamox-Gold-Spice](https://github.com/smurphos/cinnamox_themes/raw/master/Screenshots/Gold-Spice-GTK.png  "Cinnamox-Gold-Spice")
+![Cinnamox-Gold-Spice](https://github.com/smurphos/cinnamox_themes/raw/master/Screenshots/Gold-Spice-trans.png  "Cinnamox-Gold-Spice")
