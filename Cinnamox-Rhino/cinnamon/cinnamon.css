@@ -10,7 +10,7 @@ stage {
     font-size: 1em;
 }
 .cinnamon-link {
-    color: #d8e5f2;
+    color: #a9cdf2;
     text-decoration: underline;
 }
 .cinnamon-link:hover {
@@ -32,52 +32,36 @@ StScrollView.hfade {
 
 StScrollView StScrollBar {
     min-width: 1em;
-    min-height: 3em;
+    min-height: 5em;
 }
 
 StScrollBar StBin#trough {
     background-color: rgba(0,0,0,0);
     border-radius: 4px;
 }
-StScrollBar StButton#vhandle {
+StScrollBar StButton#vhandle, StScrollBar StButton#hhandle  {
   border-radius: 4px;
-  background-gradient-direction: vertical;
-  background-gradient-start: #3d80cc;
-  background-gradient-end: #434e5a;
+  background-color: #1c2126;
 }
-StScrollBar StButton#hhandle {
-  border-radius: 4px;
-  background-gradient-direction: horizontal;
-  background-gradient-start: #3d80cc;
-  background-gradient-end: #434e5a;
-}
-StScrollBar StButton#vhandle:hover {
-  background-gradient-direction: vertical;
-  background-gradient-start: #3d80cc;
-  background-gradient-end: #3d80cc;
-  transition-duration: 100;
-}
-StScrollBar StButton#hhandle:hover {
-  background-gradient-direction: horizontal;
-  background-gradient-start: #3d80cc;
-  background-gradient-end: #3d80cc;
-  transition-duration: 100;
+StScrollBar StButton#vhandle:hover, StScrollBar StButton#hhandle:hover {
+  background-color: #3d80cc;
 }
 .separator {
-    -gradient-height: 2px;
-    -gradient-start: rgba(85,85,85,1);
-    -gradient-end: #555555;
-    -margin-horizontal: 1.5em;
+    -gradient-height: 3px;
+    -gradient-start: #d8e5f2;
+    -gradient-end: #1c2126;
+    -margin-horizontal: 1em;
     height: 1em;
 }
 .slider {
     height: 1em;
     min-width: 15em;
-    -slider-height: 0.3em;
-    -slider-background-color: #666666;
-    -slider-border-color: #555555;
-    -slider-active-background-color: #CCCCCC;
-    -slider-active-border-color: #DDDDDD;
+    color: #d8e5f2;
+    -slider-height: 0.5em;
+    -slider-background-color: #1c2126;
+    -slider-border-color: #1c2126;
+    -slider-active-background-color: #3d80cc;
+    -slider-active-border-color: #1c2126;
     -slider-border-width: 1px;
     -slider-handle-radius: 0.5em;
 }
@@ -147,19 +131,11 @@ StScrollBar StButton#hhandle:hover {
     -arrow-rise: 11px;
 }
 .menu, .popup-menu {
-  padding: 10px;
-  border: 1px solid #d8e5f2;
-  border-radius: 12px;
-  background-gradient-direction: horizontal;
-  background-gradient-start: #1c2126;
-  background-gradient-end: #434e5a;
-  color: #d8e5f2;
-  font-size: 1em;
   min-width: 100px;
   margin: 0.2em;
 }
-/*Scale view right click menu*/
-.popup-combo-menu {
+/*.popup-combo-menu is for the scale view right click menu*/
+.menu, .popup-menu, .popup-combo-menu {
   padding: 10px;
   border: 1px solid #d8e5f2;
   border-radius: 12px;
@@ -196,9 +172,7 @@ StScrollBar StButton#hhandle:hover {
 }
 .popup-sub-menu StScrollBar StBin#vhandle {
     border-radius: 4px;
-    background-gradient-direction: vertical;
-    background-gradient-start: #3d80cc;
-    background-gradient-end: #434e5a;
+    background-color: #1c2126;
 }
 /* The remaining popup-menu sizing is all done in ems, so that if you
  * override .popup-menu.font-size, everything else will scale with it.
@@ -212,9 +186,7 @@ StScrollBar StButton#hhandle:hover {
     color: #d8e5f2;
 }
 .popup-menu-item:active {
-    background-gradient-direction: horizontal;
-    background-gradient-start: #3d80cc;
-    background-gradient-end: #434e5a; 
+    background-color: #3d80cc;
     border-radius: 12px;
     color: #000000;
 }
@@ -241,14 +213,16 @@ StScrollBar StButton#hhandle:hover {
 .popup-slider-menu-item {
     height: 1em;
     min-width: 15em;
-    -slider-height: 0.3em;
-    -slider-background-color: #666666;
-    -slider-border-color: #555555;
-    -slider-active-background-color: #CCCCCC;
-    -slider-active-border-color: #DDDDDD;
+    color: #d8e5f2;
+    -slider-height: 0.5em;
+    -slider-background-color: #1c2126;
+    -slider-border-color: #1c2126;
+    -slider-active-background-color: #3d80cc;
+    -slider-active-border-color: #1c2126;
     -slider-border-width: 1px;
     -slider-handle-radius: 0.5em;
 }
+/* used in power applet */
 .popup-device-menu-item {
     spacing: .5em;
 }
@@ -905,7 +879,7 @@ StScrollBar StButton#hhandle:hover {
     padding: 15px 20px;
 }
 .lightbox {
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(28, 33, 38, 0.5);
 }
 
 /* CinnamonMountOperation Dialogs */
@@ -1061,9 +1035,7 @@ StScrollBar StButton#hhandle:hover {
     padding: 10px 10px 5px;
 }
 .menu-favorites-button:hover {
-    background-gradient-direction: horizontal;
-    background-gradient-start: #3d80cc;
-    background-gradient-end: #434e5a;
+    background-color: #3d80cc;
     border-radius: 12px;
     color: #000000;
 }
@@ -1107,9 +1079,7 @@ StScrollBar StButton#hhandle:hover {
 }
 .menu-application-button-selected {
     padding: 5px 7px;
-    background-gradient-direction: horizontal;
-    background-gradient-start: #3d80cc;
-    background-gradient-end: #434e5a;
+    background-color: #3d80cc;
     border-radius: 12px;
     color: #000000;
 }
@@ -1133,9 +1103,7 @@ StScrollBar StButton#hhandle:hover {
 }
 .menu-category-button-selected {
     padding: 5px 7px;
-    background-gradient-direction: horizontal;
-    background-gradient-start: #3d80cc;
-    background-gradient-end: #434e5a;
+    background-color: #3d80cc;
     border-radius: 12px;
     color: #000000;
 }
@@ -1147,9 +1115,7 @@ StScrollBar StButton#hhandle:hover {
 
 }
 .menu-category-button-button:hover {
-    background-gradient-direction: horizontal;
-    background-gradient-start: #3d80cc;
-    background-gradient-end: #434e5a;
+    background-color: #3d80cc;
     border-radius: 12px;
     color: #000000;
 }
@@ -1188,10 +1154,8 @@ StScrollBar StButton#hhandle:hover {
     border-radius: 12px;
     color: #000000;
     border: 1px solid #d8e5f2;
-    background-gradient-direction: horizontal;
-    background-gradient-start: #3d80cc;
-    background-gradient-end: #434e5a;
-    selected-color: #000000;
+    background-color: #3d80cc;
+    selected-color: #d8e5f2;
     caret-color: #000000;
     caret-size: 1px;
     width: 250px;
@@ -1200,22 +1164,14 @@ StScrollBar StButton#hhandle:hover {
 }
 #menu-search-entry:focus,
 #menu-search-entry:hover {
-    border: #d8e5f2;
-    background-gradient-direction: horizontal;
-    background-gradient-start: #3d80cc;
-    background-gradient-end: #434e5a;
 }
 #menu-search-entry:hover {
-    transition-duration: 300;
 }
 #menu-search-entry:focus {
-    color: #000000;
-    font-weight: bold;
-    transition-duration: 0;
 }
 .menu-search-entry-icon {
     icon-size: 1em;
-    color: #d8e5f2;
+    color: #000000;
 }
 /* Context menu (at the moment only for favorites) */
 .menu-context-menu {
@@ -1293,8 +1249,8 @@ StScrollBar StButton#hhandle:hover {
     background-gradient-end: #434e5a;
     border-radius: 12px;
     border: 1px solid #d8e5f2;
-    padding: 8px;
-    spacing: 4px;
+    padding: 10px 15px;
+    spacing: 1em;
     font-size: 1em;
     color: #d8e5f2;
 }
@@ -1329,14 +1285,12 @@ StScrollBar StButton#hhandle:hover {
 }
 
 .sound-player .slider {
-    height: 0.5em;
-    -slider-height: 0.5em;
+    height: 1em;
+    min-width: 15em;
+    color: #d8e5f2;
     -slider-background-color: #1c2126;
-    -slider-border-color: #d8e5f2;
     -slider-active-background-color: #3d80cc;
-    -slider-active-border-color: #d8e5f2;
-    -slider-border-width: 1px;
-    -slider-handle-radius: 5px;
+    -slider-handle-radius: 0.5em;
 }
 
 .sound-player StBoxLayout {
@@ -1845,7 +1799,7 @@ StScrollBar StButton#hhandle:hover {
 }
 
 .flashspot {
-    background-color: white;
+    background-color: #3d80cc;
 }
 
 /* Media keys OSD popup */
@@ -1873,14 +1827,14 @@ StScrollBar StButton#hhandle:hover {
 
 .tile-preview,
 .tile-hud {
-    background-color: rgba(85, 85, 85, 0.5);
-    border: 2px solid rgba(134, 134, 134, 0.8);
+    background-color: rgba(28, 33, 38, 0.5);
+    border: 2px solid #d8e5f2;
 }
 
 .tile-preview.snap,
 .tile-hud.snap {
-    background-color: rgba(134, 134, 170, 0.5);
-    border: 2px solid rgba(85, 85, 85, 0.8);
+    background-color: rgba(28, 33, 38, 0.5);
+    border: 2px solid #3d80cc;
 }
 
 .tile-hud:top {
