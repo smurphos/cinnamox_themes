@@ -67,3 +67,10 @@ Tested on Linux Mint `18.2` & `18.3` 64bit with Cinnamon `3.4.x`, `3.6.x`, Manja
 ## Changelog & Previous Releases
 
 See [my Github repository](https://github.com/smurphos/cinnamox_themes/releases)
+
+## Additional Screenshots
+
+![Cinnamox-Zanah](https://github.com/smurphos/cinnamox_themes/raw/master/Screenshots/Zanah-menu.png "Cinnamox-Zanah")
+![Cinnamox-Zanah](https://github.com/smurphos/cinnamox_themes/raw/master/Screenshots/Zanah-calendar.png "Cinnamox-Zanah")
+![Cinnamox-Zanah](https://github.com/smurphos/cinnamox_themes/raw/master/Screenshots/Zanah-GTK.png  "Cinnamox-Zanah")
+![Cinnamox-Zanah](https://github.com/smurphos/cinnamox_themes/raw/master/Screenshots/Zanah-trans.png  "Cinnamox-Zanah")

@@ -491,7 +491,7 @@ StScrollBar StButton#vhandle:hover, StScrollBar StButton#hhandle:hover {
  * Looking Glass
  * ===================================================================*/
 #LookingGlassDialog {
-    background-gradient-direction: vertical;
+    background-gradient-direction: horizontal;
     background-gradient-start: #28343a;
     background-gradient-end: #577584;
     spacing: 4px;
@@ -678,25 +678,22 @@ StScrollBar StButton#vhandle:hover, StScrollBar StButton#hhandle:hover {
     icon-size: 3.5em;
 }
 #notification StEntry {
-    border: 1px solid #daeaf2;
-    background-gradient-direction: horizontal;
-    background-gradient-start: #28343a;
-    background-gradient-end: #577584;
-    padding: 4px;
+    padding: 2px;
     border-radius: 10px;
     color: #daeaf2;
-    transition-duration: 300;
-}
-#notification StEntry:focus {
+    font-weight: bold;
     border: 1px solid #daeaf2;
-    color:  #daeaf2;
-    background-gradient-direction: horizontal;
-    background-gradient-start: #28343a;
-    background-gradient-end: #577584;
+    background-color: #28343a;
     selection-background-color: #23b29a;
     selected-color: #000000;
     caret-color: #daeaf2;
-    caret-size: 1em;
+    caret-size: 1px;
+    width: 250px;
+    height: 1.5em;
+    transition-duration: 300
+}
+#notification StEntry:focus {
+    border: 1px solid #23b29a;
 }
 /* ===================================================================
  * Alt Tab
@@ -878,7 +875,7 @@ StScrollBar StButton#vhandle:hover, StScrollBar StButton#hhandle:hover {
     icon-size: 4.8em;
 }
 .mount-password-reask {
-    color: red;
+    color: #a1a144;
 }
 .show-processes-dialog,
 .mount-question-dialog {
@@ -1472,37 +1469,25 @@ StScrollBar StButton#vhandle:hover, StScrollBar StButton#hhandle:hover {
 }
 
 .panel-launcher-add-dialog-entry {
-    padding: 5px;
+    padding: 2px;
     border-radius: 10px;
     color: #daeaf2;
-    border: 1px SOLID #daeaf2;
-    background-gradient-direction: vertical;
-    background-gradient-start: #28343a;
-    background-gradient-end: #577584;
+    font-weight: bold;
+    border: 1px solid #daeaf2;
+    background-color: #28343a;
     selection-background-color: #23b29a;
     selected-color: #000000;
     caret-color: #daeaf2;
     caret-size: 1px;
     width: 250px;
-    transition-duration: 300;
+    height: 1.5em;
+    transition-duration: 300
 }
 
 .panel-launcher-add-dialog-entry:focus,
 .panel-launcher-add-dialog-entry:hover {
-    border: 2px solid rgb(136,138,133);
-    background-gradient-start: rgb(200,200,200);
-    background-gradient-end: white;
-    background-gradient-direction: vertical;
-}
+    border: 1px solid #23b29a;
 
-.panel-launcher-add-dialog-entry:hover {
-    transition-duration: 300;
-}
-
-.panel-launcher-add-dialog-entry:focus {
-    color: rgb(64, 64, 64);
-    font-weight: bold;
-    transition-duration: 0;
 }
 
 /* ===================================================================
@@ -1681,7 +1666,7 @@ StScrollBar StButton#vhandle:hover, StScrollBar StButton#hhandle:hover {
 }
 
 .about-title {
-    font-size: 1.5em;
+    font-size: 1.4em;
     font-weight: bold;
 }
 
