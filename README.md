@@ -65,19 +65,21 @@ To run the script open a terminal window (Ctrl-Alt-T) and replacing `$THEME_NAME
 
 ## Compatibility
 
-These themes are compatible with Cinnamon versions `3.2.x`, `3.4.x`, `3.6.x` & `3.8.x`
+Thesw themes are compatible with Cinnamon versions `3.2.x`, `3.4.x`, `3.6.x` & `3.8.x`
 
-The GTK3 theme requires GTK `3.18.x`, `3.20.x` or `3.22.x`
+The GTK3 themes require GTK `3.18.x` or `3.22.x`
 
-The GTK2 theme requires the package `gtk2-engines-murrine` or `gtk-engines-murrine` to be installed. The former is a default package in Linux Mint.
+The GTK2 theme requires the package `gtk2-engines-murrine` or `gtk-engine-murrine` to be installed. The former is a default package in Linux Mint.
 
-Tested on Linux Mint `18.2` & `18.3` 64bit with Cinnamon `3.4.x`, `3.6.x`, Manjaro `17.0.6` 64Bit with Cinnamon `3.6.x` and Ubuntu `17.10` with Cinnamon nightly builds.
+Tested on Linux Mint `18.2`, `18.3` & `19` 64bit with Cinnamon `3.4.x`, `3.6.x` & `3.8.x`; Also tested ion Manjaro `17.0.6` 64Bit with Cinnamon `3.6.x` & `3.8.x`.
 
 ### Firefox fix
 
-If you have problems seeing text on input fields in Firefox with any particular theme this problem can be solved by adding a userContent.css file to your Firefox default profile including the line `input, textarea { color: #222; background: #eee; }`
+If you have problems seeing text on input fields in Firefox with any particular theme this problem can be solved by adding a `~/.mozilla/firefox/********.default/user.js` file to your Firefox default profile including the line `user_pref("widget.content.gtk-theme-override", "Adwaita");` and restarting Firefox.
 
-The theme includes a helper script that creates the userContent.css file with this content in the correct location. To access the tool open a terminal window and use the following command to make the script executable and launch it.
+This forces firefox to use the GTK default Adwaita theme for rendering all website content.
+
+The theme includes a helper script that creates the file with this content in the correct location. To access the tool open a terminal window and use the following command to make the script executable and launch it.
 
 `chmod +x ~/.themes/#THEMENAME/cinnamox_firefox_fix.sh && ~/.themes/#THEMENAME/cinnamon/cinnamox_firefox_fix.sh`
 
@@ -142,9 +144,3 @@ See [my Github repository](https://github.com/smurphos/cinnamox_themes/releases)
 ![Cinnamox-Willow-Grove](https://github.com/smurphos/cinnamox_themes/raw/master/Screenshots/Willow-Grove-GTK.png  "Cinnamox-Willow-Grove")
 ![Cinnamox-Willow-Grove](https://github.com/smurphos/cinnamox_themes/raw/master/Screenshots/Willow-Grove-trans.png  "Cinnamox-Willow-Grove")
 
-##### Cinnamox-Zanah
-
-![Cinnamox-Zanah](https://github.com/smurphos/cinnamox_themes/raw/master/Screenshots/Zanah-menu.png "Cinnamox-Zanah")
-![Cinnamox-Zanah](https://github.com/smurphos/cinnamox_themes/raw/master/Screenshots/Zanah-calendar.png "Cinnamox-Zanah")
-![Cinnamox-Zanah](https://github.com/smurphos/cinnamox_themes/raw/master/Screenshots/Zanah-GTK.png  "Cinnamox-Zanah")
-![Cinnamox-Zanah](https://github.com/smurphos/cinnamox_themes/raw/master/Screenshots/Zanah-trans.png  "Cinnamox-Zanah")
