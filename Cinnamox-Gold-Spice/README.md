@@ -12,9 +12,9 @@ The Cinnamon themes in both [Cinnamox-gtk-theme](https://github.com/smurphos/cin
 
 GTK2, GTK3, GTK3.20 and Metacity themes in both [Cinnamox-gtk-theme](https://github.com/smurphos/cinnamox-gtk-theme) & [Oomox-gtk-theme](https://github.com/themix-project/oomox-gtk-theme) are authored by [@actionless and contributors](https://github.com/themix-project/oomox-gtk-theme/graphs/contributors).
 
-Menu in screenshots is the excellent [CinnVIIStarkMenu](https://cinnamon-spices.linuxmint.com/applets/view/281).
+Menu in screenshots is the excellent [Cinnamenu](https://cinnamon-spices.linuxmint.com/applets/view/282).
 
-Icons in screenshots are from [Vibrancy Colours](http://www.ravefinity.com/p/vibrancy-colors-gtk-icon-theme.html).
+Icons in screenshots are from [ePapirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/tree/master/ePapirus).
 
 [Licensed under GPL-3.0](https://github.com/smurphos/cinnamox-gtk-theme/blob/master/LICENSE)
 
@@ -42,6 +42,18 @@ To access the tool open a terminal window (Ctrl-Alt-T) and use the following com
 
 If you are not happy with the end result simply run `~/.themes/Cinnamox-Gold-Spice/cinnamon/cinnamox_transparency.sh` again to chose another option including the default.
 
+### Cinnamon Theme Panel Styling
+
+The themes from the 25/11/18 release onwards have a new default styling for the window-list, panel and (in Cinnamon 4) grouped window list applet.
+
+If you prefer the old styling a helper script is included to facilitate a switch to the old styling.
+
+To access the tool open a terminal window (Ctrl-Alt-T) and use the following command to make the script executable and launch it. 
+
+`chmod +x ~/.themes/Cinnamox-Gold-Spice/cinnamon/cinnamox_toggle_cinnamon.sh && ~/.themes/Cinnamox-Gold-Spice/cinnamon/cinnamox_toggle_cinnamon.sh`
+
+To revert to the new styling simply run `~/.themes/Cinnamox-Gold-Spice/cinnamon/cinnamox_toggle_cinnamon.sh` again.
+
 ### GTK2 HIDPI support
 
 If you need HIDPI Support in GTK2 the theme includes a HIDPI version of the gtkrc theme file and a helper script to toggle between the regular and HIDPI version.
@@ -62,13 +74,13 @@ To run the script open a terminal window (Ctrl-Alt-T) and use the following comm
 
 ## Compatibility
 
-This theme is compatible with Cinnamon versions `3.2.x`, `3.4.x`, `3.6.x` & `3.8.x`
+This theme is compatible with Cinnamon versions `3.2.x`, `3.4.x`, `3.6.x`, `3.8.x` & `4.0.x`
 
-The GTK3 themes require GTK `3.18.x` or `3.22.x`
+The GTK3 themes require GTK `3.18.x` or `3.20.x`+
 
 The GTK2 theme requires the package `gtk2-engines-murrine` or `gtk-engine-murrine` to be installed. The former is a default package in Linux Mint.
 
-Tested on Linux Mint `18.2`, `18.3` & `19` 64bit with Cinnamon `3.4.x`, `3.6.x` & `3.8.x`; Also tested ion Manjaro `17.0.6` 64Bit with Cinnamon `3.6.x` & `3.8.x`.
+Tested on Linux Mint `18.2`, `18.3` & `19` 64bit with Cinnamon `3.4.x`, `3.6.x` & `3.8.x`; Also tested ion Manjaro `17.0.6` 64Bit with Cinnamon `3.6.x`, `3.8.x` & `4.0.x`
 
 ### Firefox fix
 
