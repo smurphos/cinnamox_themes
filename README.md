@@ -17,9 +17,9 @@ The Cinnamon themes in both [Cinnamox-gtk-theme](https://github.com/smurphos/cin
 
 GTK2, GTK3, GTK3.20 and Metacity themes in both [Cinnamox-gtk-theme](https://github.com/smurphos/cinnamox-gtk-theme) & [Oomox-gtk-theme](https://github.com/actionless/oomox-gtk-theme) are authored by [@Actionless and others](https://github.com/smurphos/cinnamox-gtk-theme/blob/master/CREDITS) with contributions from [@smurphos](https://github.com/smurphos)
 
-Menu in screenshots is the excellent [CinnVIIStarkMenu](https://cinnamon-spices.linuxmint.com/applets/view/281).
+Menu in screenshots is the excellent [Cinnamenu](https://cinnamon-spices.linuxmint.com/applets/view/282).
 
-Icons in screenshots are from [Vibrancy Colours](http://www.ravefinity.com/p/vibrancy-colors-gtk-icon-theme.html).
+Icons in screenshots are from [Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme).
 
 ## Installation
 
@@ -45,6 +45,20 @@ To access the tool open a terminal window (Ctrl-Alt-T) and replacing `$THEME_NAM
 
 If you are not happy with the end result simply run `~/.themes/$THEME_NAME/cinnamon/cinnamox_transparency.sh` again to chose another option including the default.
 
+If you would like to control transparency of application windows then please check out my [opacify windows script](https://github.com/smurphos/nemo_actions_and_cinnamon_scripts#opacify-windows)
+
+### Cinnamon Theme Panel Styling
+
+The themes from the 25/11/18 release onwards have a new default styling for the window-list, panel and (in Cinnamon 4) grouped window list applet.
+
+If you prefer the old styling a helper script is included to facilitate a switch to the old styling.
+
+To access the tool open a terminal window (Ctrl-Alt-T) and replacing `$THEME_NAME` with the actual name of the variant installed use the following command to make the script executable and launch it. 
+
+`chmod +x ~/.themes/#THEMENAME/cinnamon/cinnamox_toggle_cinnamon.sh && ~/.themes/#THEMENAME/cinnamon/cinnamox_toggle_cinnamon.sh`
+
+To revert to the new styling simply run `~/.themes/#THEMENAME/cinnamon/cinnamox_toggle_cinnamon.sh` again.
+
 ### GTK2 HIDPI support
 
 If you need HIDPI Support in GTK2 the themes include a HIDPI version of the gtkrc theme file and a helper script to toggle between the regular and HIDPI version.
@@ -65,13 +79,13 @@ To run the script open a terminal window (Ctrl-Alt-T) and replacing `$THEME_NAME
 
 ## Compatibility
 
-Thesw themes are compatible with Cinnamon versions `3.2.x`, `3.4.x`, `3.6.x` & `3.8.x`
+These themes are compatible with Cinnamon versions `3.2.x`, `3.4.x`, `3.6.x`, `3.8.x` & `4.0.x`
 
-The GTK3 themes require GTK `3.18.x` or `3.22.x`
+The GTK3 themes require GTK `3.18.x` or `3.20.x`+
 
 The GTK2 theme requires the package `gtk2-engines-murrine` or `gtk-engine-murrine` to be installed. The former is a default package in Linux Mint.
 
-Tested on Linux Mint `18.2`, `18.3` & `19` 64bit with Cinnamon `3.4.x`, `3.6.x` & `3.8.x`; Also tested ion Manjaro `17.0.6` 64Bit with Cinnamon `3.6.x` & `3.8.x`.
+Tested on Linux Mint `18.2`, `18.3`, `19`, & `19.1`  64bit with Cinnamon `3.4.x`, `3.6.x`, `3.8.x` & `4.0.x`; Also tested on Manjaro `17.0.6` 64Bit with Cinnamon `3.6.x`, `3.8.x` & `4.0.x`
 
 ### Firefox fix
 
@@ -85,7 +99,7 @@ The theme includes a helper script that creates the file with this content in th
 
 # Make your own theme using Cinnamox / Oomox
 
-The repository at [Cinnamox_theme_master](https://github.com/smurphos/cinnamox_theme_master) includes instructions to utilise the tools provided to make your own unique Cinnamox based theme.
+The repository at [Cinnamox-gtk-theme](https://github.com/smurphos/cinnamox-gtk-theme) includes instructions to utilise the tools provided to make your own unique Cinnamox based theme.
 
 The [Oomox app](https://github.com/actionless/oomox) is a GUI app to design and build themes using the [Oomox-gtk-theme](https://github.com/actionless/oomox-gtk-theme). From [version 1.60+](https://github.com/actionless/oomox/releases/) this app included a Cinnamon theme based on Cinnamox and has an option to export a Cinnamon theme. 
 
