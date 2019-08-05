@@ -11,15 +11,17 @@ Each theme includes a Cinnamon desktop theme along with Metacity theme for borde
 
 Build tools are at [Cinnamox-gtk-theme](https://github.com/smurphos/cinnamox-gtk-theme).
 
-[Cinnamox-gtk-theme](https://github.com/smurphos/cinnamox-gtk-theme) is a fork of [Oomox-gtk-theme](https://github.com/actionless/oomox-gtk-theme).
+[Cinnamox-gtk-theme](https://github.com/smurphos/cinnamox-gtk-theme) is a fork of [Oomox-gtk-theme](https://github.com/themix-project/oomox-gtk-theme).
 
-The Cinnamon themes in both [Cinnamox-gtk-theme](https://github.com/smurphos/cinnamox-gtk-theme) & [Oomox-gtk-theme](https://github.com/actionless/oomox-gtk-theme) are authored by [@smurphos](https://github.com/smurphos).
+The Cinnamon themes in both [Cinnamox-gtk-theme](https://github.com/smurphos/cinnamox-gtk-theme) & [Oomox-gtk-theme](https://github.com/themix-project/oomox-gtk-theme) are authored by [@smurphos](https://github.com/smurphos).
 
-GTK2, GTK3, GTK3.20 and Metacity themes in both [Cinnamox-gtk-theme](https://github.com/smurphos/cinnamox-gtk-theme) & [Oomox-gtk-theme](https://github.com/actionless/oomox-gtk-theme) are authored by [@Actionless and others](https://github.com/smurphos/cinnamox-gtk-theme/blob/master/CREDITS) with contributions from [@smurphos](https://github.com/smurphos)
+GTK2, GTK3, GTK3.20 and Metacity themes in both [Cinnamox-gtk-theme](https://github.com/smurphos/cinnamox-gtk-theme) & [Oomox-gtk-theme](https://github.com/themix-project/oomox-gtk-theme) are authored by [@actionless and contributors](https://github.com/themix-project/oomox-gtk-theme/graphs/contributors).
 
 Menu in screenshots is the excellent [Cinnamenu](https://cinnamon-spices.linuxmint.com/applets/view/282).
 
-Icons in screenshots are from [Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme).
+Icons in screenshots are from [ePapirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/tree/master/ePapirus).
+
+[Licensed under GPL-3.0](https://github.com/smurphos/cinnamox-gtk-theme/blob/master/LICENSE)
 
 ## Installation
 
@@ -34,6 +36,16 @@ To allow the GTK2, GTK3 and Metacity1 themes to apply to GUI apps running as roo
 `sudo ln -s ~/.themes/* /usr/share/themes/`
 
 ## Tweaking
+
+### Cinnamon Theme Font-Size
+
+The themes include an interactive bash script that allows end users to adjust the base font-size of the Cinnamon Theme. This can be useful for users running Cinnamon on relatively high resolution displays with relatively small screen dimensions where the hard-coded theme default font-sizes are too small.
+
+To access the tool open a terminal window (Ctrl-Alt-T) and and replacing `$THEME_NAME` with the actual name of the variant installeduse the following command to make the script executable and launch it. 
+
+`chmod +x ~/.themes/$THEME_NAME/cinnamon/cinnamox_fontsize.sh && ~/.themes/$THEME_NAME/cinnamon/cinnamox_fontsize.sh`
+
+If you are not happy with the end result simply run `~/.themes/$THEME_NAME/cinnamon/cinnamox_fontsize.sh` again to chose another option including the default
 
 ### Cinnamon Theme Transparency
 
@@ -79,13 +91,13 @@ To run the script open a terminal window (Ctrl-Alt-T) and replacing `$THEME_NAME
 
 ## Compatibility
 
-These themes are compatible with Cinnamon versions `3.2.x`, `3.4.x`, `3.6.x`, `3.8.x` & `4.0.x`
+These theme are compatible with Cinnamon versions `3.2.x`, `3.4.x`, `3.6.x`, `3.8.x`, `4.0.x` & `4.2.x`
 
 The GTK3 themes require GTK `3.18.x` or `3.20.x`+
 
 The GTK2 theme requires the package `gtk2-engines-murrine` or `gtk-engine-murrine` to be installed. The former is a default package in Linux Mint.
 
-Tested on Linux Mint `18.2`, `18.3`, `19`, & `19.1`  64bit with Cinnamon `3.4.x`, `3.6.x`, `3.8.x` & `4.0.x`; Also tested on Manjaro `17.0.6` 64Bit with Cinnamon `3.6.x`, `3.8.x` & `4.0.x`
+Tested on Linux Mint `18.2`, `18.3`, `19`, `19.1` & `19.2` 64bit with Cinnamon `3.4.x`, `3.6.x`, `3.8.x`, `4.0.x` & `4.2.x`; Also tested on Manjaro `17.0.6` 64Bit with Cinnamon `3.6.x`, `3.8.x` & `4.0.x`
 
 ### Firefox fix
 
@@ -97,11 +109,11 @@ The theme includes a helper script that creates the file with this content in th
 
 `chmod +x ~/.themes/#THEMENAME/cinnamox_firefox_fix.sh && ~/.themes/#THEMENAME/cinnamox_firefox_fix.sh`
 
-# Make your own theme using Cinnamox / Oomox
+## Make your own theme using Cinnamox / Oomox
 
 The repository at [Cinnamox-gtk-theme](https://github.com/smurphos/cinnamox-gtk-theme) includes instructions to utilise the tools provided to make your own unique Cinnamox based theme.
 
-The [Oomox app](https://github.com/actionless/oomox) is a GUI app to design and build themes using the [Oomox-gtk-theme](https://github.com/actionless/oomox-gtk-theme). From [version 1.60+](https://github.com/actionless/oomox/releases/) this app included a Cinnamon theme based on Cinnamox and has an option to export a Cinnamon theme. 
+The [Oomox app](https://github.com/themix-project/oomox) is a GUI app to design and build themes using the [Oomox-gtk-theme](https://github.com/themix-project/oomox-gtk-theme). From [version 1.60+](https://github.com/themix-project/oomox/releases) this app included a Cinnamon theme based on Cinnamox and has an option to export a Cinnamon theme. 
 
 ## Changelog & Previous Releases
 
