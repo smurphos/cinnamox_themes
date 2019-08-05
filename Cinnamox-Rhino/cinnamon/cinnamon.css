@@ -1,6 +1,7 @@
 /* Cinnamox-Rhino */
 /* Transparency: None */
-/* Cinnamox-Rhino features a deep grey colour scheme and light text. Cinnamon, Metacity, GTK2, GTK3.18 and GTK3.20+ themes are included along with a script to adjust the transparency of the Cinnamon theme. */
+/* Standard font size (10pt) */
+/* Cinnamox-Rhino features a deep grey colour scheme and light text. Cinnamon, Metacity, GTK2, GTK3.18 and GTK3.20+ themes are included along with several interactive bash scripts to allow end-users to tweak theme characteristics. */
 /* -------------------------------------------------------------------------- */
 /* This cinnamon theme has been built from an scss template. */
 /* The source code, tools and instructions to make your own cinnamox theme */
@@ -170,7 +171,7 @@
   border: 2px solid #3b73b3; }
 
 stage {
-  font-family: roboto, Noto Sans, sans, sans-serif;
+  font-family: roboto, Ubuntu, Noto Sans, sans, sans-serif;
   font-size: 10pt; }
 
 .cinnamon-link {
@@ -980,7 +981,7 @@ StScrollView StScrollBar {
   padding: 16px 20px; }
 
 .modal-dialog-button-box {
-  spacing: 16px; }
+  padding-top: 16px; }
 
 .modal-dialog-button {
   min-width: 5em;
@@ -993,14 +994,13 @@ StScrollView StScrollBar {
 
 .run-dialog-label {
   color: #d8e5f2;
-  padding-bottom: 10px; }
+  padding-bottom: 16px; }
 
 .run-dialog-error-label {
   color: #3d80cc; }
 
 .run-dialog-error-box {
-  padding-top: 15px;
-  spacing: 5px; }
+  padding-top: 16px; }
 
 .run-dialog-completion-box {
   padding-left: 15px; }
@@ -1010,7 +1010,7 @@ StScrollView StScrollBar {
 
 .run-dialog {
   border-radius: 10px;
-  padding: 16px 20px; }
+  padding: 16px 20px 8px; }
 
 .cinnamon-mount-operation-icon {
   icon-size: 4.8em; }

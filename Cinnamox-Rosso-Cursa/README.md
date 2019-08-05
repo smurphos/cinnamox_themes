@@ -1,6 +1,6 @@
 ## Cinnamox-Rosso-Cursa
 
-Cinnamox-Rosso-Cursa features an exciting red colour scheme and light text. Cinnamon, Metacity, GTK2, GTK3.18 and GTK3.20+ themes are included along with a script to adjust the transparency of the Cinnamon theme.
+Cinnamox-Rosso-Cursa features an exciting red colour scheme and light text. Cinnamon, Metacity, GTK2, GTK3.18 and GTK3.20+ themes are included along with several interactive bash scripts to allow end-users to tweak theme characteristics.
 
 ## Credits
 
@@ -31,6 +31,16 @@ To allow the GTK2, GTK3 and Metacity1 themes to apply to GUI apps running as roo
 `sudo ln -s ~/.themes/* /usr/share/themes/`
 
 ## Tweaking
+
+### Cinnamon Theme Font-Size
+
+The theme includes an interactive bash script that allows end users to adjust the base font-size of the Cinnamon Theme. This can be useful for users running Cinnamon on realtively high resolution displays with relatively small screen dimensions where the hard-coded theme default font-sizes are too small.
+
+To access the tool open a terminal window (Ctrl-Alt-T) and use the following command to make the script executable and launch it. 
+
+`chmod +x ~/.themes/Cinnamox-Rosso-Cursa/cinnamon/cinnamox_fontsize.sh && ~/.themes/Cinnamox-Rosso-Cursa/cinnamon/cinnamox_fontsize.sh`
+
+If you are not happy with the end result simply run `~/.themes/Cinnamox-Rosso-Cursa/cinnamon/cinnamox_fontsize.sh` again to chose another option including the default
 
 ### Cinnamon Theme Transparency
 
@@ -76,13 +86,13 @@ To run the script open a terminal window (Ctrl-Alt-T) and use the following comm
 
 ## Compatibility
 
-This theme is compatible with Cinnamon versions `3.2.x`, `3.4.x`, `3.6.x`, `3.8.x` & `4.0.x`
+This theme is compatible with Cinnamon versions `3.2.x`, `3.4.x`, `3.6.x`, `3.8.x`, `4.0.x` & `4.2.x`
 
 The GTK3 themes require GTK `3.18.x` or `3.20.x`+
 
 The GTK2 theme requires the package `gtk2-engines-murrine` or `gtk-engine-murrine` to be installed. The former is a default package in Linux Mint.
 
-Tested on Linux Mint `18.2`, `18.3`, `19`, & `19.1`  64bit with Cinnamon `3.4.x`, `3.6.x`, `3.8.x` & `4.0.x`; Also tested on Manjaro `17.0.6` 64Bit with Cinnamon `3.6.x`, `3.8.x` & `4.0.x`
+Tested on Linux Mint `18.2`, `18.3`, `19`, `19.1` & `19.2` 64bit with Cinnamon `3.4.x`, `3.6.x`, `3.8.x`, `4.0.x` & `4.2.x`; Also tested on Manjaro `17.0.6` 64Bit with Cinnamon `3.6.x`, `3.8.x` & `4.0.x`
 
 ### Firefox fix
 
